@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B221B92AD0517900E36C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221B82AD0517900E36C5E /* AppDelegate.swift */; };
+		81B221BB2AD0517900E36C5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221BA2AD0517900E36C5E /* SceneDelegate.swift */; };
+		81B221BD2AD0517900E36C5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221BC2AD0517900E36C5E /* ViewController.swift */; };
+		81B221C02AD0517900E36C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B221BE2AD0517900E36C5E /* Main.storyboard */; };
+		81B221C32AD0517900E36C5E /* My_medical_cart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81B221C12AD0517900E36C5E /* My_medical_cart.xcdatamodeld */; };
+		81B221C52AD0517B00E36C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B221C42AD0517B00E36C5E /* Assets.xcassets */; };
+		81B221C82AD0517B00E36C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B221C62AD0517B00E36C5E /* LaunchScreen.storyboard */; };
+		81B221D32AD0517B00E36C5E /* My_medical_cartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221D22AD0517B00E36C5E /* My_medical_cartTests.swift */; };
+		81B221DD2AD0517B00E36C5E /* My_medical_cartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221DC2AD0517B00E36C5E /* My_medical_cartUITests.swift */; };
+		81B221DF2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221DE2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B221CF2AD0517B00E36C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B221AD2AD0517900E36C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B221B42AD0517900E36C5E;
+			remoteInfo = "My medical cart";
+		};
+		81B221D92AD0517B00E36C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B221AD2AD0517900E36C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B221B42AD0517900E36C5E;
+			remoteInfo = "My medical cart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B221B52AD0517900E36C5E /* My medical cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My medical cart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B221B82AD0517900E36C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B221BA2AD0517900E36C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81B221BC2AD0517900E36C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81B221BF2AD0517900E36C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B221C22AD0517900E36C5E /* My_medical_cart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_medical_cart.xcdatamodel; sourceTree = "<group>"; };
+		81B221C42AD0517B00E36C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B221C72AD0517B00E36C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B221C92AD0517B00E36C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B221CE2AD0517B00E36C5E /* My medical cartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My medical cartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B221D22AD0517B00E36C5E /* My_medical_cartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_medical_cartTests.swift; sourceTree = "<group>"; };
+		81B221D82AD0517B00E36C5E /* My medical cartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My medical cartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B221DC2AD0517B00E36C5E /* My_medical_cartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_medical_cartUITests.swift; sourceTree = "<group>"; };
+		81B221DE2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_medical_cartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B221B22AD0517900E36C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B221CB2AD0517B00E36C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B221D52AD0517B00E36C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B221AC2AD0517900E36C5E = {
+			isa = PBXGroup;
+			children = (
+				81B221B72AD0517900E36C5E /* My medical cart */,
+				81B221D12AD0517B00E36C5E /* My medical cartTests */,
+				81B221DB2AD0517B00E36C5E /* My medical cartUITests */,
+				81B221B62AD0517900E36C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B221B62AD0517900E36C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B221B52AD0517900E36C5E /* My medical cart.app */,
+				81B221CE2AD0517B00E36C5E /* My medical cartTests.xctest */,
+				81B221D82AD0517B00E36C5E /* My medical cartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B221B72AD0517900E36C5E /* My medical cart */ = {
+			isa = PBXGroup;
+			children = (
+				81B221B82AD0517900E36C5E /* AppDelegate.swift */,
+				81B221BA2AD0517900E36C5E /* SceneDelegate.swift */,
+				81B221BC2AD0517900E36C5E /* ViewController.swift */,
+				81B221BE2AD0517900E36C5E /* Main.storyboard */,
+				81B221C42AD0517B00E36C5E /* Assets.xcassets */,
+				81B221C62AD0517B00E36C5E /* LaunchScreen.storyboard */,
+				81B221C92AD0517B00E36C5E /* Info.plist */,
+				81B221C12AD0517900E36C5E /* My_medical_cart.xcdatamodeld */,
+			);
+			path = "My medical cart";
+			sourceTree = "<group>";
+		};
+		81B221D12AD0517B00E36C5E /* My medical cartTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B221D22AD0517B00E36C5E /* My_medical_cartTests.swift */,
+			);
+			path = "My medical cartTests";
+			sourceTree = "<group>";
+		};
+		81B221DB2AD0517B00E36C5E /* My medical cartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B221DC2AD0517B00E36C5E /* My_medical_cartUITests.swift */,
+				81B221DE2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift */,
+			);
+			path = "My medical cartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B221B42AD0517900E36C5E /* My medical cart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B221E22AD0517B00E36C5E /* Build configuration list for PBXNativeTarget "My medical cart" */;
+			buildPhases = (
+				81B221B12AD0517900E36C5E /* Sources */,
+				81B221B22AD0517900E36C5E /* Frameworks */,
+				81B221B32AD0517900E36C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My medical cart";
+			productName = "My medical cart";
+			productReference = 81B221B52AD0517900E36C5E /* My medical cart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B221CD2AD0517B00E36C5E /* My medical cartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B221E52AD0517B00E36C5E /* Build configuration list for PBXNativeTarget "My medical cartTests" */;
+			buildPhases = (
+				81B221CA2AD0517B00E36C5E /* Sources */,
+				81B221CB2AD0517B00E36C5E /* Frameworks */,
+				81B221CC2AD0517B00E36C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B221D02AD0517B00E36C5E /* PBXTargetDependency */,
+			);
+			name = "My medical cartTests";
+			productName = "My medical cartTests";
+			productReference = 81B221CE2AD0517B00E36C5E /* My medical cartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B221D72AD0517B00E36C5E /* My medical cartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B221E82AD0517B00E36C5E /* Build configuration list for PBXNativeTarget "My medical cartUITests" */;
+			buildPhases = (
+				81B221D42AD0517B00E36C5E /* Sources */,
+				81B221D52AD0517B00E36C5E /* Frameworks */,
+				81B221D62AD0517B00E36C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B221DA2AD0517B00E36C5E /* PBXTargetDependency */,
+			);
+			name = "My medical cartUITests";
+			productName = "My medical cartUITests";
+			productReference = 81B221D82AD0517B00E36C5E /* My medical cartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B221AD2AD0517900E36C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					81B221B42AD0517900E36C5E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					81B221CD2AD0517B00E36C5E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 81B221B42AD0517900E36C5E;
+					};
+					81B221D72AD0517B00E36C5E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 81B221B42AD0517900E36C5E;
+					};
+				};
+			};
+			buildConfigurationList = 81B221B02AD0517900E36C5E /* Build configuration list for PBXProject "My medical cart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B221AC2AD0517900E36C5E;
+			productRefGroup = 81B221B62AD0517900E36C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B221B42AD0517900E36C5E /* My medical cart */,
+				81B221CD2AD0517B00E36C5E /* My medical cartTests */,
+				81B221D72AD0517B00E36C5E /* My medical cartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B221B32AD0517900E36C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B221C82AD0517B00E36C5E /* LaunchScreen.storyboard in Resources */,
+				81B221C52AD0517B00E36C5E /* Assets.xcassets in Resources */,
+				81B221C02AD0517900E36C5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B221CC2AD0517B00E36C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B221D62AD0517B00E36C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B221B12AD0517900E36C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B221BD2AD0517900E36C5E /* ViewController.swift in Sources */,
+				81B221C32AD0517900E36C5E /* My_medical_cart.xcdatamodeld in Sources */,
+				81B221B92AD0517900E36C5E /* AppDelegate.swift in Sources */,
+				81B221BB2AD0517900E36C5E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B221CA2AD0517B00E36C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B221D32AD0517B00E36C5E /* My_medical_cartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B221D42AD0517B00E36C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B221DF2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift in Sources */,
+				81B221DD2AD0517B00E36C5E /* My_medical_cartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B221D02AD0517B00E36C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B221B42AD0517900E36C5E /* My medical cart */;
+			targetProxy = 81B221CF2AD0517B00E36C5E /* PBXContainerItemProxy */;
+		};
+		81B221DA2AD0517B00E36C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B221B42AD0517900E36C5E /* My medical cart */;
+			targetProxy = 81B221D92AD0517B00E36C5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B221BE2AD0517900E36C5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B221BF2AD0517900E36C5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B221C62AD0517B00E36C5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B221C72AD0517B00E36C5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B221E02AD0517B00E36C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B221E12AD0517B00E36C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B221E32AD0517B00E36C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My medical cart/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tree.My-medical-cart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B221E42AD0517B00E36C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My medical cart/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tree.My-medical-cart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81B221E62AD0517B00E36C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tree.My-medical-cartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My medical cart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My medical cart";
+			};
+			name = Debug;
+		};
+		81B221E72AD0517B00E36C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tree.My-medical-cartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My medical cart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/My medical cart";
+			};
+			name = Release;
+		};
+		81B221E92AD0517B00E36C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tree.My-medical-cartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My medical cart";
+			};
+			name = Debug;
+		};
+		81B221EA2AD0517B00E36C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UJ348LDS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tree.My-medical-cartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My medical cart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B221B02AD0517900E36C5E /* Build configuration list for PBXProject "My medical cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B221E02AD0517B00E36C5E /* Debug */,
+				81B221E12AD0517B00E36C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B221E22AD0517B00E36C5E /* Build configuration list for PBXNativeTarget "My medical cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B221E32AD0517B00E36C5E /* Debug */,
+				81B221E42AD0517B00E36C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B221E52AD0517B00E36C5E /* Build configuration list for PBXNativeTarget "My medical cartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B221E62AD0517B00E36C5E /* Debug */,
+				81B221E72AD0517B00E36C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B221E82AD0517B00E36C5E /* Build configuration list for PBXNativeTarget "My medical cartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B221E92AD0517B00E36C5E /* Debug */,
+				81B221EA2AD0517B00E36C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81B221C12AD0517900E36C5E /* My_medical_cart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81B221C22AD0517900E36C5E /* My_medical_cart.xcdatamodel */,
+			);
+			currentVersion = 81B221C22AD0517900E36C5E /* My_medical_cart.xcdatamodel */;
+			path = My_medical_cart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81B221AD2AD0517900E36C5E /* Project object */;
+}
