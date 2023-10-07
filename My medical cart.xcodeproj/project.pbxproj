@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8131026F2AD07F5B00D2EE79 /* MedicalCardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8131026E2AD07F5B00D2EE79 /* MedicalCardTableView.swift */; };
+		813102732AD094D500D2EE79 /* PersonalInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813102722AD094D500D2EE79 /* PersonalInfoTableViewCell.swift */; };
 		81B221B92AD0517900E36C5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221B82AD0517900E36C5E /* AppDelegate.swift */; };
 		81B221BB2AD0517900E36C5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221BA2AD0517900E36C5E /* SceneDelegate.swift */; };
-		81B221BD2AD0517900E36C5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221BC2AD0517900E36C5E /* ViewController.swift */; };
+		81B221BD2AD0517900E36C5E /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221BC2AD0517900E36C5E /* LogInView.swift */; };
 		81B221C02AD0517900E36C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B221BE2AD0517900E36C5E /* Main.storyboard */; };
 		81B221C32AD0517900E36C5E /* My_medical_cart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81B221C12AD0517900E36C5E /* My_medical_cart.xcdatamodeld */; };
 		81B221C52AD0517B00E36C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B221C42AD0517B00E36C5E /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 		81B221D32AD0517B00E36C5E /* My_medical_cartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221D22AD0517B00E36C5E /* My_medical_cartTests.swift */; };
 		81B221DD2AD0517B00E36C5E /* My_medical_cartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221DC2AD0517B00E36C5E /* My_medical_cartUITests.swift */; };
 		81B221DF2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221DE2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift */; };
+		81B221EC2AD0619000E36C5E /* CrateAccView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221EB2AD0619000E36C5E /* CrateAccView.swift */; };
+		81B221EE2AD0713200E36C5E /* MedCardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B221ED2AD0713200E36C5E /* MedCardTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8131026E2AD07F5B00D2EE79 /* MedicalCardTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalCardTableView.swift; sourceTree = "<group>"; };
+		813102722AD094D500D2EE79 /* PersonalInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoTableViewCell.swift; sourceTree = "<group>"; };
 		81B221B52AD0517900E36C5E /* My medical cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My medical cart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B221B82AD0517900E36C5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B221BA2AD0517900E36C5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		81B221BC2AD0517900E36C5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81B221BC2AD0517900E36C5E /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		81B221BF2AD0517900E36C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81B221C22AD0517900E36C5E /* My_medical_cart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_medical_cart.xcdatamodel; sourceTree = "<group>"; };
 		81B221C42AD0517B00E36C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		81B221D82AD0517B00E36C5E /* My medical cartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My medical cartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B221DC2AD0517B00E36C5E /* My_medical_cartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_medical_cartUITests.swift; sourceTree = "<group>"; };
 		81B221DE2AD0517B00E36C5E /* My_medical_cartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_medical_cartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81B221EB2AD0619000E36C5E /* CrateAccView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrateAccView.swift; sourceTree = "<group>"; };
+		81B221ED2AD0713200E36C5E /* MedCardTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedCardTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		81B221AC2AD0517900E36C5E = {
 			isa = PBXGroup;
 			children = (
+				81B221ED2AD0713200E36C5E /* MedCardTableView.swift */,
 				81B221B72AD0517900E36C5E /* My medical cart */,
 				81B221D12AD0517B00E36C5E /* My medical cartTests */,
 				81B221DB2AD0517B00E36C5E /* My medical cartUITests */,
@@ -103,7 +112,10 @@
 			children = (
 				81B221B82AD0517900E36C5E /* AppDelegate.swift */,
 				81B221BA2AD0517900E36C5E /* SceneDelegate.swift */,
-				81B221BC2AD0517900E36C5E /* ViewController.swift */,
+				81B221BC2AD0517900E36C5E /* LogInView.swift */,
+				81B221EB2AD0619000E36C5E /* CrateAccView.swift */,
+				8131026E2AD07F5B00D2EE79 /* MedicalCardTableView.swift */,
+				813102722AD094D500D2EE79 /* PersonalInfoTableViewCell.swift */,
 				81B221BE2AD0517900E36C5E /* Main.storyboard */,
 				81B221C42AD0517B00E36C5E /* Assets.xcassets */,
 				81B221C62AD0517B00E36C5E /* LaunchScreen.storyboard */,
@@ -261,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B221BD2AD0517900E36C5E /* ViewController.swift in Sources */,
+				81B221EE2AD0713200E36C5E /* MedCardTableView.swift in Sources */,
+				8131026F2AD07F5B00D2EE79 /* MedicalCardTableView.swift in Sources */,
+				81B221BD2AD0517900E36C5E /* LogInView.swift in Sources */,
+				813102732AD094D500D2EE79 /* PersonalInfoTableViewCell.swift in Sources */,
+				81B221EC2AD0619000E36C5E /* CrateAccView.swift in Sources */,
 				81B221C32AD0517900E36C5E /* My_medical_cart.xcdatamodeld in Sources */,
 				81B221B92AD0517900E36C5E /* AppDelegate.swift in Sources */,
 				81B221BB2AD0517900E36C5E /* SceneDelegate.swift in Sources */,
