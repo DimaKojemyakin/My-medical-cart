@@ -78,7 +78,7 @@ class MedicalCardTableView: UITableViewController {
                 print("Пользователь успешно разлогинен!")
                 
                 // Переходите на другой экран
-                navigationController?.popViewController(animated: true)
+                performSegue(withIdentifier: "logOut", sender: nil)
             }
         } catch {
             print("Ошибка при разлогинивании пользователя: \(error)")

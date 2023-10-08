@@ -43,8 +43,127 @@ class LogInView: UIViewController {
         loginTF.delegate = self
         passwordTF.delegate = self
         
+        navigationItem.hidesBackButton = true
+        
+        
+        
         
     }
+    func showEmailForPhoneNumber() {
+        let alertController = UIAlertController(title: "Enter your phone number", message: nil, preferredStyle: .alert)
+        alertController.addTextField { (textField) in
+            textField.placeholder = "phone"
+            textField.keyboardType = .phonePad
+        }
+        let okAction = UIAlertAction(title: "Ok", style: .default) { [weak self] (_) in
+            guard let phoneNumber = alertController.textFields?.first?.text else { return }
+            
+            if self?.checkUserExistence(forPhoneNumber: phoneNumber) ?? false {
+                self?.showEmail(for: phoneNumber)
+            } else {
+                let errorAlertController = UIAlertController(title: "Error", message: "User not found", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                errorAlertController.addAction(okAction)
+                self?.present(errorAlertController, animated: true, completion: nil)
+            }
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alertController.addAction(okAction)
+        alertController.addAction(cancelAction)
+        present(alertController, animated: true, completion: nil)
+    }
+
+
+    func checkUserExistence(forEmail email: String) -> Bool {
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        request.predicate = NSPredicate(format: "email == %@", email)
+        
+        do {
+            let count = try context.count(for: request)
+            return count > 0
+        } catch {
+            print("Error checking user existence: \(error)")
+            return false
+        }
+    }
+    func showEmail(for phoneNumber: String) {
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        request.predicate = NSPredicate(format: "phone == %@", phoneNumber)
+
+        do {
+            let users = try context.fetch(request) as? [User]
+            if let user = users?.first, let email = user.email {
+                let alertControllerResult = UIAlertController(title: "Your email is \(email)", message: nil, preferredStyle: .alert)
+                let okActionEmail = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                alertControllerResult.addAction(okActionEmail)
+                present(alertControllerResult, animated: true)
+            } else {
+                print("Email пользователя не найден")
+                // Показать сообщение об ошибке, если email отсутствует
+            }
+        } catch {
+            print("Ошибка при получении email пользователя: \(error)")
+        }
+    }
+
+    func showPasswordForPhoneNumber() {
+        let alertController = UIAlertController(title: "Enter your phone number", message: nil, preferredStyle: .alert)
+        alertController.addTextField { (textField) in
+            textField.placeholder = "phone "
+            textField.keyboardType = .phonePad
+        }
+        let okAction = UIAlertAction(title: "Ok", style: .default) { [weak self] (_) in
+            guard let phoneNumber = alertController.textFields?.first?.text else { return }
+            
+            if self?.checkUserExistence(forPhoneNumber: phoneNumber) ?? false {
+                self?.showPassword(for: phoneNumber)
+            } else {
+                let errorAlertController = UIAlertController(title: "Error", message: "User not found", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                errorAlertController.addAction(okAction)
+                self?.present(errorAlertController, animated: true, completion: nil)
+            }
+        }
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        alertController.addAction(okAction)
+        alertController.addAction(cancelAction)
+        present(alertController, animated: true, completion: nil)
+    }
+
+    func showPassword(for phoneNumber: String) {
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        request.predicate = NSPredicate(format: "phone == %@", phoneNumber)
+
+        do {
+            let users = try context.fetch(request) as? [User]
+            if let user = users?.first, let password = user.password {
+                let alertControllerResult = UIAlertController(title: "Your password is \(password)", message: nil, preferredStyle: .alert)
+                let okActionPassword = UIAlertAction(title: "Ok", style: .default, handler: nil)
+                alertControllerResult.addAction(okActionPassword)
+                present(alertControllerResult, animated: true)
+            } else {
+                print("Пароль пользователя не найден")
+                // Показать сообщение об ошибке, если пароль отсутствует
+            }
+        } catch {
+            print("Ошибка при получении пароля пользователя: \(error)")
+        }
+    }
+
+    
+    func checkUserExistence(forPhoneNumber phoneNumber: String) -> Bool {
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        request.predicate = NSPredicate(format: "phone == %@", phoneNumber)
+        
+        do {
+            let count = try context.count(for: request)
+            return count > 0
+        } catch {
+            print("Error checking user existence: \(error)")
+            return false
+        }
+    }
+
     
     func checkUserLoggedIn() {
         // Проверяем, зарегистрирован ли пользователь в Core Data
@@ -71,7 +190,13 @@ class LogInView: UIViewController {
         }
     }
     
+    @IBAction func forgetPasswordButtonPressed(_ sender: Any) {
+        showPasswordForPhoneNumber()
+    }
     
+    @IBAction func forgetEmailButtonPressed(_ sender: UIButton) {
+        showEmailForPhoneNumber()
+    }
     
     @IBAction func logInTapped(_ sender: UIButton) {
         

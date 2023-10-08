@@ -17,30 +17,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="77" translatesAutoresizingMaskIntoConstraints="NO" id="oPV-OX-qB8">
-                                <rect key="frame" x="0.0" y="28" width="375" height="542"/>
+                                <rect key="frame" x="0.0" y="48" width="375" height="522"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="aZw-8K-UlR">
-                                        <rect key="frame" x="16" y="0.0" width="343" height="232.5"/>
+                                        <rect key="frame" x="16" y="0.0" width="343" height="222.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axg-xZ-YZg">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Z0J-Ky-Y7b">
-                                                <rect key="frame" x="0.0" y="67" width="343" height="31.5"/>
+                                                <rect key="frame" x="0.0" y="64.5" width="343" height="29"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="go" textContentType="email"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OrD-Vy-wIg">
-                                                <rect key="frame" x="0.0" y="134.5" width="73.5" height="31"/>
+                                                <rect key="frame" x="0.0" y="129.5" width="73.5" height="28.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xej-8B-bvT">
-                                                <rect key="frame" x="0.0" y="201.5" width="343" height="31"/>
+                                                <rect key="frame" x="0.0" y="194" width="343" height="28.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                                             </textField>
@@ -54,10 +54,10 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="Q3F-QI-5X6">
-                                        <rect key="frame" x="0.0" y="309.5" width="375" height="232.5"/>
+                                        <rect key="frame" x="0.0" y="299.5" width="375" height="222.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TS4-7K-caC">
-                                                <rect key="frame" x="152.5" y="0.0" width="70" height="36.5"/>
+                                                <rect key="frame" x="152.5" y="0.0" width="70" height="34"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Log in"/>
                                                 <connections>
@@ -65,7 +65,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5MJ-CU-TLH">
-                                                <rect key="frame" x="106" y="65.5" width="163.5" height="36.5"/>
+                                                <rect key="frame" x="106" y="63" width="163.5" height="34"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Сreate an account"/>
                                                 <connections>
@@ -73,14 +73,20 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKC-bs-8qi">
-                                                <rect key="frame" x="103" y="131" width="169.5" height="36"/>
+                                                <rect key="frame" x="103" y="126" width="169.5" height="33.5"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Forgot your email ?"/>
+                                                <connections>
+                                                    <action selector="forgetEmailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JTs-JX-7kF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94b-t5-fRh">
-                                                <rect key="frame" x="86.5" y="196" width="202.5" height="36.5"/>
+                                                <rect key="frame" x="86.5" y="188.5" width="202.5" height="34"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Forgot your password ?"/>
+                                                <connections>
+                                                    <action selector="forgetPasswordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VLy-8n-KzZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -132,7 +138,7 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="DCZ-j1-Mgo">
                                             <rect key="frame" x="16" y="0.0" width="258" height="97"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дима Кожемякин" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZOM-b7-Fh4">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZOM-b7-Fh4">
                                                     <rect key="frame" x="0.0" y="0.0" width="258" height="76.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="65" id="4b7-VO-RVs"/>
@@ -141,7 +147,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Возвраст: 13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzm-gv-2TX">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age: ..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzm-gv-2TX">
                                                     <rect key="frame" x="0.0" y="76.5" width="258" height="20.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20.5" id="ff5-6Z-0LE"/>
@@ -251,7 +257,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="1kP-dN-idJ">
-                                <rect key="frame" x="16" y="50" width="343" height="344.5"/>
+                                <rect key="frame" x="16" y="70" width="343" height="344.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h40-fD-lfM">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
@@ -375,7 +381,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2c1-0X-vUS"/>
+        <segue reference="AlT-Sw-VLm"/>
         <segue reference="GjP-zh-nlE"/>
     </inferredMetricsTieBreakers>
     <resources>

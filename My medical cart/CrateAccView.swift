@@ -24,6 +24,8 @@ class CrateAccView: UIViewController {
         passwordTF.delegate = self
         
         
+        phoneTF.keyboardType = .phonePad
+        
     }
     
     
